@@ -1,0 +1,399 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        button{
+            padding: 10px;
+            border-radius: 20px;
+        }
+        select{
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #FFD600;
+            border: none;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: #252525;
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
+.a{
+    padding: 50px;
+    border-radius: 20px;
+    .aa{
+        background-image: url(./img4.svg);
+        background-size: cover;
+        padding: 150px;
+        border-radius: 20px;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            color: #252525;
+        }
+        button{
+            width: 160px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #FFD600;
+            border-color: #FFD600;
+        }
+    }
+}
+.s{
+    background-color:#9BD5EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    div{
+        font-size: 20px;
+        div{
+            margin-top: 20px;
+        }
+    }
+}
+.d{
+    .d1{
+        text-align: center;
+    }
+    .d2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        div{
+            text-align: center;
+            h3{
+                position: relative;
+                top: 40px;
+                left:60px;
+                background-color: #FFD600;
+                width: 12px;
+                height: 23px;
+                border-radius: 50%;
+            }
+            img{
+                padding: 20px;
+                background-color:#FFF8D0;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+.g{
+    background-color: #F4F4F4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    .gg{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        h4{
+            width: 30px;
+            height: 20px;
+            background-color: #FFD600;
+            display: flex;
+            justify-content: center;
+            border-radius: 40px;
+        }
+        p{
+            color: #252525;
+        }
+        .g1{
+            .gf{
+                display: flex;
+                gap: 10px;
+                h3
+            }
+        }
+        .g2{
+            background-color:#FFFFFF ;
+            padding: 30px;
+            border-radius: 20px;
+            .gy{
+                padding: 10px;
+                background-color: #FFD600;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+.z{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    .zzz{
+        div{
+            margin-top: 20px;
+        }
+        .z1{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            input{
+                width: 250px;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+        .z2{
+            input{
+                width: 530px;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+        .z3{
+            textarea{
+                padding: 10px;
+                width: 510px;
+                height: 150px;
+                border-radius: 10px;
+            }
+        }
+        .z4{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            button{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #FFD600;
+                border-color: #FFD600;
+            }
+            h4{
+                color: #252525;
+            }
+            span{
+                border-bottom: 1px solid #252525;
+            }
+        }
+    }
+    h1{
+        text-align: center;
+    }
+}
+.w{
+    padding: 50px;
+    .www{
+        background-image: url(./img11.svg);
+        background-size: cover;
+        padding: 100px;
+        border-radius: 20px;
+        .bt{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            button{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                background-color: white;
+                border-color: white;
+            }
+        }
+        .pp{
+            position: relative;
+            top: 70px;
+        }
+    }
+}
+.b{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBFBFB;
+    .bbt{
+        .bbb{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+footer{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    div{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 510px){
+    header{
+        nav{
+            display: none;
+        }
+        .hh{
+            display: none;
+        }
+    }
+    .a{
+        padding: 1px;
+        .aa{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+    }
+    .s{
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+        div{
+            padding: 10px;
+        }
+        img{
+            width: 90%;
+        }
+    }
+    .d{
+        .d2{
+            overflow:auto;
+        }
+    }
+    .g{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .gg{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .z{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    .zzz{
+        div{
+            margin-top: 20px;
+        }
+        .z1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            input{
+                width: 250px;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+        .z2{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            input{
+                width: 250px;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+        .z3{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            textarea{
+                padding: 10px;
+                width: 240px;
+                height: 150px;
+                border-radius: 10px;
+            }
+        }
+        .z4{
+            display: flex;
+            flex-direction: column;
+            button{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #FFD600;
+                border-color: #FFD600;
+            }
+            h4{
+                color: #252525;
+            }
+            span{
+                border-bottom: 1px solid #252525;
+            }
+        }
+    }
+    h1{
+        text-align: center;
+    }
+    }
+    .w{
+    padding:10px;
+    .www{
+        background-image: url(./img11.svg);
+        background-size: cover;
+        padding: 30px;
+        border-radius: 20px;
+        .bt{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            button{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                border-radius: 10px;
+                background-color: white;
+                border-color: white;
+            }
+        }
+        .pp{
+            position: relative;
+            top: 30px;
+        }
+    }
+    }
+    .b{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFB;
+    .bbt{
+        .bbb{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    }
+    footer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    }
+}
