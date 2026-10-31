@@ -115,13 +115,15 @@ header{
             .gf{
                 display: flex;
                 gap: 10px;
-                h3
+                h3{
+                    color: white;
+                }
             }
         }
         .g2{
-            background-color:#FFFFFF ;
             padding: 30px;
             border-radius: 20px;
+            background-color: white;
             .gy{
                 padding: 10px;
                 background-color: #FFD600;
